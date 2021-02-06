@@ -29,7 +29,7 @@
     <div class="col">
       <label class="form-label">Fronteras:</label>
       <select class="form-control" formControlName="frontera">
-        <option value=""> -- Seleccione País -- </option>
+        <option value=""> -- Seleccione Frontera -- </option>
         <option *ngFor="let frontera of fronteras" [value]="frontera.alpha3Code"> {{frontera.name}} </option>
       </select>
     </div>
